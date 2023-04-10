@@ -1,0 +1,5 @@
+In general, the use of threads is most beneficial when you have multiple CPU-bound
+or I/O-bound tasks that can be executed independently and concurrently. If your program does not have such tasks, 
+or if the tasks are not suitable for concurrent execution, 
+then using threads may not provide any benefits and could even degrade performance due to the overhead of thread creation and management.
+Regene
